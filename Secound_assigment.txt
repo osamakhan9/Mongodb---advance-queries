@@ -1,0 +1,12 @@
+
+db.data.find([{region:{"Asia"}}])
+
+db.data.find({id:{currency:"EUR",currency_name:"Euro"}})
+
+db.data.find({id:{timezones:[{gmtoffset:"3600"}]}})
+
+db.data.find({id:{timezones:[{gmtoffset:"3600":name:"European"}]}})
+
+db.data.find({id:{timezones:[]}})
+
+db.data.find([{region:{"Korean"}}])
